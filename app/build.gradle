@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         manifestPlaceholders = [baiduKey:"ilkZBe64HEhN6XsdHlUgkLGZ"]
+        manifestPlaceholders = [GaoDeKey:"20991493b23450fc2e43101c11ffa63a"]
     }
     buildTypes {
         release {
@@ -18,6 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
             manifestPlaceholders = [baiduKey:"jv7lhNuYEpnTqNC6n6Dn14Sz"]
+            manifestPlaceholders = [GaoDeKey:"01b0bbf451eb6a97d2f0be636b46ed8d"]
         }
     }
 }
